@@ -8,6 +8,7 @@ import Home from "./components/home/Home";
 import Register from "./components/register/Register";
 import Login from "./components/login/Login";
 import CreateTrip from "./components/createTrip/CreateTrip";
+import TripCatalog from "./components/tripCatalog/Catalog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/create" element={<CreateTrip />} />
+                <Route path="/trips" element={<TripCatalog/>}/>
             </Routes>
         </main>
         <Footer />
