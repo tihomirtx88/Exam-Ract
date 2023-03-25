@@ -142,3 +142,23 @@ div.container .login {
     display: flex;
     justify-content: space-between;
 }
+
+.container {
+  max-width: 1500px;
+}
+
+.line {
+  box-shadow: 2px 0px 4px 1px #f4c537, inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+img.card-img-top {
+  height: 170px;
+}
+
+.row {
+  justify-content: center;
+  margin-top: 40px;
+}
