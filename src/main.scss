@@ -162,3 +162,35 @@ img.card-img-top {
   justify-content: center;
   margin-top: 40px;
 }
+
+.divAlert {
+  font-size: 25px;
+  box-shadow: 0px -2px 20px -1px #f4c537, inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  position: relative;
+  top: -239px;
+  left: 131%;
+  border-radius: 20px;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.divAlertButton {
+    font-size: 25px;
+    padding: 10px 10px;
+    box-shadow: 0px -2px 20px -1px #f4c537, inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    border-radius: 20px;
+}
+
+.divTextAlert{
+   padding: 10px 10px;
+}
