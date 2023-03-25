@@ -7,6 +7,7 @@ import Logout from "./components/logout/Logout";
 import Home from "./components/home/Home";
 import Register from "./components/register/Register";
 import Login from "./components/login/Login";
+import CreateTrip from "./components/createTrip/CreateTrip";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/logout" element={<Logout />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/create" element={<CreateTrip />} />
             </Routes>
         </main>
         <Footer />

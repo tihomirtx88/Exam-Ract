@@ -124,3 +124,21 @@ div.container .login {
     width: 50%;
     text-align: center;
 }
+
+.edit textarea.form-control,
+.offer-trip textarea.form-control {
+    width: 100%;
+    height: 90px;
+}
+
+.edit-label,
+.offer-label {
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-input,
+.offer-input {
+    display: flex;
+    justify-content: space-between;
+}
