@@ -95,3 +95,32 @@ textarea,
 input {
     background: rgba(0, 0, 0, 0.6);
 }
+
+.login-page > h1,
+.register-page > h1,
+.offer-trip > h1 {
+    margin: 2%;
+    text-align: center;
+}
+
+.login,
+.register {
+    width: 40% !important;
+}
+
+.login input,
+.register input {
+    text-align: center;
+}
+
+input.form-control-2::placeholder,
+textarea.form-control::placeholder {
+    color: rgb(167, 162, 162);
+}
+
+div.container .register,
+div.container .login {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
