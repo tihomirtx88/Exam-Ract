@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { UserProvider } from "./context/UserProvider";
-import "./App.css";
+import "./main.scss";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 

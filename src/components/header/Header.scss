@@ -1,0 +1,26 @@
+.navbarResponsive {
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: flex;
+  max-width: 800px;
+  li > a.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  li > a.nav-link:hover {
+    color: #099cf1 !important;
+  }
+}
+
+.car.logo {
+  transform: rotate(-8deg);
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+}
