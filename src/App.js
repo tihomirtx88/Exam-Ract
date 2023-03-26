@@ -14,6 +14,7 @@ import Profile from "./components/profile/Profile";
 import EditTrip from "./components/edit/Edit";
 import AuthWrapper from "./context/AuthWrapper";
 import SearchTrip from "./components/search/SearchTrip";
+import GoogleMap from "./components/googleMap/GoogleMap";
 
 
 {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/trips" element={<TripCatalog />} />
           <Route path="/search" element={<SearchTrip />} />
+          <Route path="/google" element={<GoogleMap />} />
           
         </Routes>
       </main>
