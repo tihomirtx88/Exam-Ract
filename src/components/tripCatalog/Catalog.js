@@ -4,7 +4,7 @@ import AlertPopUpD from "../../context/AlertPopup";
 import { Splide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { MONGO_URL } from "../../urls";
-import SingleTrip from "./singleTrip/SingleTrup";
+import SingleTrip from "./singleTrip/SingleTrip";
 
 const TripCatalog = () => {
   const [trips, setTrips] = useState([]);

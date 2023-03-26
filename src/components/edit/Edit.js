@@ -30,7 +30,6 @@ const EditTrip = () => {
         return res.json();
       })
       .then((data) => {
-        console.log(data);
         setEditInfo(data);
       })
       .catch((error) => {
@@ -49,11 +48,9 @@ const EditTrip = () => {
       },
     })
       .then((res) => {
-        console.log(res, `from res`);
         return res.json();
       })
       .then((data) => {
-        console.log(data, `from data`);
         if (data.error) {
           throw Error();
         }

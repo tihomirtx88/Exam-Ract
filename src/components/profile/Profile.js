@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import AlertPopUpD from "../../context/AlertPopup";
 import { UserContext } from "../../context/UserProvider";
 import { MONGO_URL } from "../../urls";
-import SingleTrip from "../tripCatalog/singleTrip/SingleTrup";
+import SingleTrip from "../tripCatalog/singleTrip/SingleTrip";
 
 
 const Profile = () => {

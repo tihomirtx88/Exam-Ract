@@ -1,0 +1,39 @@
+.edit > h1 {
+    margin: 2%;
+    text-align: center;
+}
+
+.trip {
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 75px;
+    color: white;
+}
+
+.trip p.lead {
+    margin-bottom: 0;
+}
+
+.driver {
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.jumbotron.my-4 {
+    margin-top: 0 !important;
+}
+
+section > div.container {
+    padding-top: 40px;
+}
+
+.trip-desc textarea {
+    height: 170px;
+}
+.trip-desc > h5 {
+    font-size: 22px;
+}

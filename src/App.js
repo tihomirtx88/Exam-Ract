@@ -13,6 +13,8 @@ import Details from "./components/details/Details";
 import Profile from "./components/profile/Profile";
 import EditTrip from "./components/edit/Edit";
 import AuthWrapper from "./context/AuthWrapper";
+import SearchTrip from "./components/search/SearchTrip";
+
 
 {
   /* <Route element={<AuthWrapper />}>
@@ -38,6 +40,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/trips" element={<TripCatalog />} />
+          <Route path="/search" element={<SearchTrip />} />
           
         </Routes>
       </main>
