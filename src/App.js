@@ -32,7 +32,6 @@ function App() {
         <Routes>
           <Route element={<AuthWrapper />}>
               <Route path="/create" element={<CreateTrip />} />
-              <Route path="/details/:tripId" element={<Details />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/details/:tripId/edit" element={<EditTrip />} />
           </Route>
@@ -43,6 +42,7 @@ function App() {
           <Route path="/trips" element={<TripCatalog />} />
           <Route path="/search" element={<SearchTrip />} />
           <Route path="/google" element={<GoogleMap />} />
+          <Route path="/details/:tripId" element={<Details />} />
           
         </Routes>
       </main>

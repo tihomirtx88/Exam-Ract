@@ -85,7 +85,7 @@ const EditTrip = () => {
             onSubmit={(values) => onSubmit(values)}
           >
             {(formik) => (
-              <form onSubmit={formik.handleSubmit}>
+              <form onSubmit={formik.handleSubmit} className="edit-form">
                 <div className="edit-label">
                   <label htmlFor="startPoint">
                     {" "}
@@ -202,7 +202,7 @@ const EditTrip = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="description">Description</label>
+                  <label style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}} htmlFor="description">Description</label>
                   <textarea
                     className="form-control"
                     id="description"

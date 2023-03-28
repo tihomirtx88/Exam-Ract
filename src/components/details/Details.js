@@ -119,7 +119,7 @@ const Details = () => {
         ) : (
           <>
             <div className="destination">
-              <div>
+              <div className="destination-nest">
                 <span className="icon">
                   <i className="fas fa-map-marked-alt" />
                 </span>

@@ -7,7 +7,7 @@ const AuthWrapper = () => {
     return (
         <>
         {!isExpired
-          ? navigate('/login')
+          ? navigate('/login') 
           : <Outlet />}
         </>
     );
