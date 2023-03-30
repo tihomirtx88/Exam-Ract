@@ -15,7 +15,7 @@ import EditTrip from "./components/edit/Edit";
 import AuthWrapper from "./context/AuthWrapper";
 import SearchTrip from "./components/search/SearchTrip";
 import GoogleMap from "./components/googleMap/GoogleMap";
-
+import RouteGuard from "./common/RouteGuard";
 
 {
   /* <Route element={<AuthWrapper />}>
@@ -30,10 +30,12 @@ function App() {
 
       <main>
         <Routes>
-          <Route element={<AuthWrapper />}>
-              <Route path="/create" element={<CreateTrip />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/details/:tripId/edit" element={<EditTrip />} />
+          <Route element={<AuthWrapper />}>      
+          </Route>
+          <Route element={<RouteGuard/>}>
+              <Route path="/details/:tripId/edit" element={ <EditTrip /> } />
+              <Route path="/profile" element={ <Profile /> } />
+              <Route path="/create" element={ <CreateTrip /> } />
           </Route>
           <Route path="/" element={<Home />} />
           <Route path="/logout" element={<Logout />} />
@@ -43,7 +45,6 @@ function App() {
           <Route path="/search" element={<SearchTrip />} />
           <Route path="/google" element={<GoogleMap />} />
           <Route path="/details/:tripId" element={<Details />} />
-          
         </Routes>
       </main>
       <Footer />
