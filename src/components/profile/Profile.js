@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import AlertPopUpD from "../../context/AlertPopup";
 import { UserContext } from "../../context/UserProvider";
 import { MONGO_URL } from "../../urls";
-import SingleTrip from "../tripCatalog/singleTrip/SingleTrip";
+import SingleTripProfile from "./SingleTripProfile/SingleTripProfile";
 
 
 const Profile = () => {
@@ -65,7 +65,7 @@ const Profile = () => {
         <div className="trips-info">
           {tripInfo.length > 0 ? (
             tripInfo.map((trip) => (
-              <SingleTrip key={trip._id} trip={trip} />
+              <SingleTripProfile key={trip._id} trip={trip} />
             ))
           ) : (
             <p>there are no offer trips yet...</p>

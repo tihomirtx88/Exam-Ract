@@ -73,7 +73,7 @@ const Details = () => {
 
   const tripDeleteHandler = (ev) => {
     const confirmation = window.confirm(
-      "Are you sure you want to delete this trip?"
+      `Are you sure you want to delete trip from ${trip.start} to ${trip.end}`
     );
 
     if (confirmation) {
