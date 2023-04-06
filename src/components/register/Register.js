@@ -120,7 +120,7 @@ const Register = () => {
     return (
         <section className="py-5" id="register-page">
             <div className="container register-page">
-                <h1>Register</h1>
+                <h1 className="register-page-title">Register</h1>
                 <div className="register">
                     <Formik
                         initialValues={{}}
@@ -164,7 +164,7 @@ const Register = () => {
                                     handleOnBlur={formik.handleBlur}
                                 />
 
-                                <label>Gender</label>
+                                <label className="register-label-gender">Gender</label>
                                 <div className="gender">
                                     <GenderGroup
                                         inputType="radio"

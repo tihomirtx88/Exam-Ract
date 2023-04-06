@@ -85,7 +85,7 @@ const Login = () => {
     return (
         <section className="py-5" id="login-page">
             <div className="container login-page">
-                <h1>Login</h1>
+                <h1 className="login-page-title">Login</h1>
                 <div className="login">
                     <Formik
                         initialValues={{}}

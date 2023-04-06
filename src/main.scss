@@ -104,12 +104,11 @@ input {
     background: rgba(0, 0, 0, 0.6);
 }
 
-.login,
 .register {
     width: 40% !important;
 }
 
-.login input,
+
 .register input {
     text-align: center;
 }
@@ -119,12 +118,7 @@ textarea.form-control::placeholder {
     color: rgb(167, 162, 162);
 }
 
-div.container .register,
-div.container .login {
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-}
+
 
 
 
