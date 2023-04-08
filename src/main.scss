@@ -27,11 +27,12 @@ input.form-control-2,
 textarea.form-control,
 input.form-control,
 textarea:disabled {
-    box-shadow: 0px -2px 20px -1px #f4c537, inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    outline: none;
+  box-shadow: 0px -2px 20px -1px #f4c537,
+    inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  outline: none;
 }
 
 .form-group textarea {
@@ -69,65 +70,49 @@ textarea:disabled {
 
 input[type="date"]::-webkit-calendar-picker-indicator,
 input[type="time"]::-webkit-calendar-picker-indicator {
-    cursor: pointer;
-    border-radius: 4px;
-    margin-right: 2px;
-    filter: invert(1);
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  filter: invert(1);
 }
 
 input.form-control-2::placeholder,
 textarea.form-control::placeholder {
-    color: rgb(167, 162, 162);
+  color: rgb(167, 162, 162);
 }
 
 textarea.form-control:focus,
 input.form-control:focus,
 input.form-control-2:focus {
-    border: 1px solid #80bdff;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    box-shadow: none;
+  border: 1px solid #80bdff;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-shadow: none;
 }
 
 textarea,
 textarea.form-control,
 textarea:disabled {
-    padding: 5px 10px;
-    text-align: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    word-wrap: break-word;
+  padding: 5px 10px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  word-wrap: break-word;
 }
 
 textarea,
 input {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-.register {
-    width: 40% !important;
-}
-
-
-.register input {
-    text-align: center;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 input.form-control-2::placeholder,
 textarea.form-control::placeholder {
-    color: rgb(167, 162, 162);
+  color: rgb(167, 162, 162);
 }
-
-
-
-
-
 
 .container {
   max-width: 1500px;
 }
-
-
 
 img.card-img-top {
   height: 170px;
@@ -140,7 +125,8 @@ img.card-img-top {
 
 .divAlert {
   font-size: 25px;
-  box-shadow: 0px -2px 20px -1px #f4c537, inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
+  box-shadow: 0px -2px 20px -1px #f4c537,
+    inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
   background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
@@ -155,45 +141,46 @@ img.card-img-top {
 }
 
 .divAlertButton {
-    font-size: 25px;
-    padding: 10px 10px;
-    box-shadow: 0px -2px 20px -1px #f4c537, inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    outline: none;
-    display: flex;
-    border-radius: 20px;
+  font-size: 25px;
+  padding: 10px 10px;
+  box-shadow: 0px -2px 20px -1px #f4c537,
+    inset -14px -14px 30px -13px rgb(0 0 0 / 55%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  border-radius: 20px;
 }
 
-.divTextAlert{
-   padding: 10px 10px;
+.divTextAlert {
+  padding: 10px 10px;
 }
 
 @keyframes showNav {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeOut {
   from {
-      opacity: 1;
+    opacity: 1;
   }
   to {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @keyframes fadeOut {
   from {
-      opacity: 1;
+    opacity: 1;
   }
   to {
-      opacity: 0;
+    opacity: 0;
   }
 }
 

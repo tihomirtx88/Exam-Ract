@@ -56,7 +56,7 @@ const SearchTrip = () => {
         "Here you can find existing trips and join to your friends"
       </p>
       <form onSubmit={onSearchSubmit} className="search-form">
-        <h2>
+        <h2 className="search-form-title">
           <span className="search-criteria-span">Trips</span>
         </h2>
         <div className="search-input-container">
@@ -66,6 +66,7 @@ const SearchTrip = () => {
             name="search"
             onChange={onSearchChange}
             value={search}
+            className="search-form-input"
           />
 
           {search.length > 0 && (
@@ -82,7 +83,7 @@ const SearchTrip = () => {
         </div>
 
         <div className="filter">
-          <span>Search Criteria:</span>
+          <span className="filter-span-title">Search Criteria:</span>
           <select
             name="criteria"
             className="criteria"

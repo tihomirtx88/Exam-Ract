@@ -75,7 +75,7 @@ const EditTrip = () => {
   return (
     <section className="py-5" id="edit-trip-page">
       <div className="container edit">
-        <h1>Edit trip</h1>
+        <h1 className="edit-title">Edit trip</h1>
         <div>
           <Formik
             initialValues={editInfo}
@@ -119,6 +119,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.end && formik.touched.end ? (
+                    <span style={{ color: "red" }}>{formik.errors.end}</span>
+                  ) : null}
                 </div>
                 <div className="edit-label">
                   <label htmlFor="date">
@@ -140,6 +143,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.date && formik.touched.date ? (
+                    <span style={{ color: "red" }}>{formik.errors.date}</span>
+                  ) : null}
 
                   <input
                     type="text"
@@ -150,6 +156,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.time && formik.touched.time ? (
+                    <span style={{ color: "red" }}>{formik.errors.time}</span>
+                  ) : null}
                 </div>
                 <div className="edit-label">
                   <label htmlFor="carImage">Car Image</label>
@@ -165,6 +174,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.carImg && formik.touched.carImg ? (
+                    <span style={{ color: "red" }}>{formik.errors.carImg}</span>
+                  ) : null}
 
                   <input
                     type="text"
@@ -175,6 +187,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.carBrand && formik.touched.carBrand ? (
+                    <span style={{ color: "red" }}>{formik.errors.carBrand}</span>
+                  ) : null}
                 </div>
                 <div className="edit-label">
                   <label htmlFor="seats">Available Seats</label>
@@ -190,6 +205,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.seats && formik.touched.seats ? (
+                    <span style={{ color: "red" }}>{formik.errors.seats}</span>
+                  ) : null}
 
                   <input
                     type="text"
@@ -200,6 +218,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.price && formik.touched.price ? (
+                    <span style={{ color: "red" }}>{formik.errors.price}</span>
+                  ) : null}
                 </div>
                 <div className="form-group">
                   <label style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}} htmlFor="description">Description</label>
@@ -211,6 +232,9 @@ const EditTrip = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                   />
+                   {formik.errors.description && formik.touched.description ? (
+                    <span style={{ color: "red" }}>{formik.errors.description}</span>
+                  ) : null}
                 </div>
                 <button type="submit" className="btn btn-primary">
                   Submit

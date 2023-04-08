@@ -56,7 +56,7 @@ const TripCatalog = () => {
             trips.map((trip) => <SingleTrip key={trip._id} trip={trip} />)
           ) : (
             <div className="no-trips">
-              <img src="https://www.stagweb.co.uk/img/activities/big/sexyhitchhiker1.jpg" />
+              <img className="no-trips-image" src="https://www.stagweb.co.uk/img/activities/big/sexyhitchhiker1.jpg" />
               <p className="lead">Hitchhiker time...</p>
             </div>
           )}

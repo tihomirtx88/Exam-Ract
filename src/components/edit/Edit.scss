@@ -1,7 +1,9 @@
 .edit {
-  .edit > h1 {
+  .edit-title {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     margin: 2%;
     text-align: center;
+    color: white;
   }
 
   .edit-form {
@@ -11,20 +13,16 @@
       display: flex;
       justify-content: space-around;
     }
+
+    .edit-label {
+      label {
+        color: white;
+      }
+    }
   }
 }
 
-.trip {
-  text-align: center;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding-top: 75px;
-  color: white;
-}
 
-.trip p.lead {
-  margin-bottom: 0;
-}
 
 .driver {
   font-weight: bold;
@@ -41,6 +39,3 @@
 section > div.container {
   padding-top: 40px;
 }
-
-
-

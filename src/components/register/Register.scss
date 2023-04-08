@@ -7,11 +7,15 @@
 
   .register {
     margin: 0 auto;
-    width: 50%;
     text-align: center;
+    width: 40% !important;
 
     label {
       color: white;
+    }
+
+    input {
+      text-align: center;
     }
 
     .register-label-gender:hover {
