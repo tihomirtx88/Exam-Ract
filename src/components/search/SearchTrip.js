@@ -104,12 +104,10 @@ const SearchTrip = () => {
             gap: `5rem`,
             width: "100%",
           }}
-        >
-          <div className="search-result">
+        >        
             {filteredTrips?.map((trip) => (
               <SingleTrip key={trip._id} trip={trip} />
-            ))}
-          </div>
+            ))}        
         </Splide>
       </>
     </section>
